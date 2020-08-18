@@ -1,0 +1,35 @@
+body{
+    background-color: khaki;
+
+}
+img{
+    width: 50%;
+    border: solid 1px red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+.arrowLeft, .arrowCenter, .arrowRight{
+    width: 30%;
+    height: 200px;
+    border: dashed 2px blue;
+
+}
+p.prevButton, p.nextButton, p.repeatButton{
+    font-size-adjust: 30pt;
+
+}
+.buttonBox{
+    width: 90%;
+    text-align: center;
+    border: double 1px green;
+    display: flex;
+    justify-content: space-around;
+
+}
+.imageBox{
+    width: 90%;
+    border: hotpink 2px dotted;
+}
