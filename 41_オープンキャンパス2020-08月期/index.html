@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Open Campus 2020-08-22</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.jg"></script>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,23 +17,23 @@
         <section id="page1">
             <div class="imageBox">
 
-                <img src="img/yaiba1.jpg" alt="鬼滅の刃１">
-            </div>
-            <div class="buttonBox">
-                <div class="arrowLeft">
-                    <p class="prevButton">前</p>
-                </div>
-                <div class="arrowCenter">
-                    <p class="repeatButton">自動再生</p>
-                </div>
-                <div class="arrowRight">
-                    <p class="nextButton">次</p>
-                </div>
+                <img id="slideshow" src="imgs/yaiba1.jpg" alt="鬼滅の刃１">
             </div>
 
         </section>
     </main>
     <footer>
+            <div class="buttonBox">
+                <div class="arrowLeft">
+                    <p class="prevButton"><img src="imgs/arrowLeft.png" alt=""></p>
+                </div>
+                <div class="arrowCenter" id="startStopButton">
+                    <p class="repeatButton">自動再生</p>
+                </div>
+                <div class="arrowRight" onclick="startstopshow()">
+                    <p class="nextButton" id="startstopbutton"><img src="imgs/arrowRight.png" alt=""></p>
+                </div>
+            </div>
 
     </footer>
 </body>
