@@ -26,9 +26,16 @@ img{
     height: 100px;
 
 }
-
+header{
+    border: solid pink 1px;
+    text-align: center;
+    font-size: 20pt;
+}
 #slideshow{
     /* 絵のサイズを決める */
     height: 400px;
 
+}
+#headerTitle{
+    margin: auto;
 }
