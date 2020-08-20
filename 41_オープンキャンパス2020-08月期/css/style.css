@@ -1,19 +1,34 @@
 body{
+    /* 背景色の設定 */
     background-color: khaki;
+    
+    /* 画像とボタンの横サイズ */
+    width: 500px;
+
+    /* 中央ぞろえ  */
+    margin-left: auto;
+    margin-right: auto;
 
 }
 img{
+    /* eの周りに枠線を設定する */
     border: solid 1px red;
+
+    /* img要素は非ブロック要素 */
     display: block;
-    margin-left: auto;
+
+    /* 中央ぞろえ */
+    margin: auto;
+    /* margin-left: auto;
     margin-right: auto;
-   
+    margin-top: auto;
+    margin-bottom: auto; */
+    height: 100px;
 
 }
-.prevButton, .nextButton{
-    
-}
+
 #slideshow{
-    width: 400PX;
-    
+    /* 絵のサイズを決める */
+    height: 400px;
+
 }

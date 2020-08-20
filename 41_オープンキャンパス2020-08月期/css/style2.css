@@ -1,33 +1,13 @@
 
 .buttonBox{
+    /* レイアウトをflexに設定する */
     display: flex;
+
+    /* ボタンを中央揃えに設定する */
     justify-content: space-around;
-    
-}
-/*
-.arrowLeft, .arrowCenter, .arrowRight{
-    width: 30PX;
-    height: 200px;
-    border: dashed 2px blue;
-
-}
-p.prevButton, p.nextButton, p.repeatButton{
-    font-size-adjust: 30pt;
-
-}
-.buttonBox{
-    width: 30PX;
-    text-align: center;
-    border: double 1px green;
-    display: flex;
-    justify-content: space-around;
-
+       
 }
 .imageBox{
-    border: hotpink 2px dotted;
+    /* border:  solid 1px palevioletred; */
+    
 }
-#nextButton{
-    color: tomato;
-
-}
-*/

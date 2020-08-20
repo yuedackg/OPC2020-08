@@ -1,4 +1,4 @@
-
+// オリジナル：
 // ----------------------------------------------
 // ▼設定：スライドショーで見せたい画像ファイル群
 // ----------------------------------------------
@@ -27,6 +27,7 @@ function slideimage() {
 // -----------------------------------------------
 var slideid = 0;
 function startstopshow() {
+   // alert("ok")
    if( slideid == 0 ) {
       // 始まっていなければ始める
       slideid = setInterval(slideimage,1000);   // 1000は切替秒数(ミリ秒)
@@ -37,4 +38,4 @@ function startstopshow() {
       slideid = 0;
    }
 }
-document.getElementById('startstopbutton').onclick = startstopshow;
+// document.getElementById("startStopButton").onclick = startstopshow
