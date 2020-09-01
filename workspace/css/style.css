@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+body{
+    background-color: khaki;
+}
+header{
+    font-size: 30pt;
+    margin: 10px;
+}
+#slideshow{
+    width: 300px;
+    height: 400px;
+}
